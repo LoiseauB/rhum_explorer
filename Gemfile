@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -61,8 +61,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # our gems
 gem 'devise'
-gem 'aws-sdk-s3', require: false
-gem 'mailjet', :git => 'https://github.com/mailjet/mailjet-gem.git'
 gem 'table_print'
 gem 'rubocop'
 gem 'rspec-rails'
